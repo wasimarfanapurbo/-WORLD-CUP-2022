@@ -1,0 +1,269 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+</style>body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+    p {
+        font-size: 18px;
+    }
+}
+
+
+.container {
+    width: 1321px;
+
+    height: 646px;
+    display: flex;
+    background-color: #161616;
+    margin: 100px 200px 70px 130px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.header-artical {
+    width: 40%;
+    height: 424px;
+    color: white;
+    padding: 100px 0px 125px 100px;
+
+
+}
+
+.header-artical batton {
+    font-size: 20px;
+
+}
+
+.head-icon {
+    margin-left: 15px;
+}
+
+.header-artical h1 {
+    font-weight: 800px;
+    font-size: 70px;
+}
+
+.header-artical a {
+    width: 187px;
+    height: 56px;
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    padding: 16px 45px;
+    border-radius: 5px;
+}
+
+.header-artical .icon {
+    color: white;
+}
+
+.header-images img {
+    width: 100%;
+    height: 613px;
+    margin-top: 30px;
+}
+
+/* --------------------
+Header ariea end here
+-------------------- */
+/* --------------------
+main section start Here
+---------------------- */
+
+.main-container {
+    width: 1321px;
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 25px;
+    margin: auto;
+    margin-bottom: 430px;
+
+}
+
+.upcaming {
+    grid-row: 1/4;
+
+}
+
+.upcaming {
+    height: 312px;
+    width: 312px;
+    border-radius: 10px;
+    background-color: #161616;
+    color: white;
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+
+.update {
+    Width: 252px;
+    Height: 64px;
+    padding-top: 5px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    color: #161616;
+}
+
+
+
+.group {
+    Width: 252px;
+    Height: 64px;
+    padding-top: 5px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: white;
+    color: #161616;
+
+}
+
+.blog {
+    Width: 252px;
+    Height: 64px;
+    padding-top: 5px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+}
+
+.bannar {
+    height: 242px;
+    width: 312px;
+    border-radius: 5px;
+
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.bannaer-section bannar {
+    padding-bottom: 20px;
+}
+
+.btn {
+    border: 2px solid #161616;
+    margin: 10px 0px 0px 10px;
+    display: inline-flex;
+
+
+}
+
+.info {
+    margin-right: 100px;
+
+}
+
+/*-------------------------
+ main section end here
+ --------------------------- */
+footer {
+    Width: 100%;
+    Height: 344px;
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 80px;
+
+}
+
+.footer-ariea {
+    width: 70%;
+    margin: auto;
+}
+
+.footer-head {
+    padding-bottom: 12px;
+}
+
+.footer-ariea hr {
+    color: lightgrey;
+}
+
+.footer-menu {
+    display: inline-flex;
+    margin-top: 50px;
+
+}
+
+.footer-menu h3 {
+    margin: 0px 15px;
+
+
+}
+
+.social-icon {
+    padding-top: 40px;
+
+}
+
+.social-icon i {
+    margin: 0 20px;
+}
+
+
+/* ----------------------
+Media query responsive leyout design
+----------------------------- */
+/* mobile size */
+/* 
+@media screen and (max-width: 688px) {
+    header {
+        Width: 334px;
+        Height: 472px;
+    }
+
+    .container .main-container {
+        background-color: aqua;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+
+    }
+
+    .header-artical {}
+
+    .header-images {
+        Width: 233px;
+        Height: 245px;
+    }
+
+
+
+    .header-artical h1 {
+        font-size: 25px;
+    }
+
+    .main-container .footer-ariea {
+        display: none;
+    }
+
+
+
+} */
+/* teblet devices */
+@media screen and(min-width: 689px) and (max-width:992px) {
+    .header-artical {
+        background-color: blue;
+    }
+
+
+}
